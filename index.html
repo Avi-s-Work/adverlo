@@ -20,8 +20,8 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header class="position-fixed w-100">
-      <nav class="navbar navbar-expand-lg bg-transparent">
+    <header class="fixed-top">
+      <nav class="navbar navbar-expand-lg bg-transparent py-3">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img class="img-fluid" src="/images/Adverlo_Logo.png" alt="" />
@@ -41,7 +41,7 @@
             <ul class="navbar-nav ms-auto align-items-center">
               <li class="nav-item">
                 <a
-                  class="text-white text-decoration-none me-5"
+                  class="text-white text-decoration-none mx-3"
                   href="#"
                   class="nav-link"
                   >Why Adverlo?</a
@@ -49,14 +49,17 @@
               </li>
               <li class="nav-item">
                 <a
-                  class="text-white text-decoration-none me-5"
+                  class="text-white text-decoration-none mx-3"
                   href="#"
                   class="nav-link"
                   >Services</a
                 >
               </li>
               <li class="nav-item">
-                <button type="button" class="rounded-pill px-4 py-3">
+                <button
+                  type="button"
+                  class="rounded-pill px-4 py-3 mx-4 mt-3 mt-lg-0"
+                >
                   Speak to our team
                 </button>
               </li>
@@ -65,16 +68,23 @@
         </div>
       </nav>
     </header>
-    <section style="background-image: url('images/hero_bg.png'); height: auto">
-      <div class="container col-xxl-8 px-4 py-5">
+    <section
+      class="hero-bg"
+      style="background-image: url('images/hero_bg.png')"
+    >
+      <div class="container py-5">
         <div
-          class="row align-items-center justify-content-center justify-content-lg-between justify-content-md-center"
+          class="row align-items-start justify-content-center justify-content-lg-between"
         >
-          <div class="col-lg-5 text-lg-start text-center border border-danger">
-            <h1 class="display-5 fw-bold lh-1 mb-3 text-white">
+          <div
+            class="hero-text col-12 col-lg-6 text-center text-lg-start border border-danger"
+          >
+            <h1 class="fw-bold mb-3 text-white">
               We Convert Clicks Into Customers
             </h1>
-            <p class="lead text-white">Ads cost money. Good ads make money.</p>
+            <p class="lead text-white mt-4">
+              Ads cost money. Good ads make money.
+            </p>
             <p class="lead text-white mb-4">
               It’s time to maximize results and sales to make the most of your
               ad budget.
@@ -83,13 +93,14 @@
               Speak to our team
             </button>
           </div>
-          <div class="col-10 col-sm-8 col-lg-6 border border-danger">
+          <div
+            class="pt-5 pt-lg-0 mt-5 mt-lg-0 col-12 col-lg-6 text-center border border-danger"
+          >
+            <img class="img-fluid" src="/images/window.png" alt="" />
             <img
               src="images/Hero_Illustration.png"
-              class="d-block mx-lg-auto img-fluid"
-              alt="Bootstrap Themes"
-              width="700"
-              height="500"
+              class="people img-fluid"
+              alt="Hero_Illustration"
               loading="lazy"
             />
           </div>

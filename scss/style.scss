@@ -2,6 +2,28 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.hero-bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    height: auto;
+}
+
+.people {
+    position: relative;
+    top: -30px;
+}
+
+.hero-text {
+    h1 {
+        font-size: 4.125rem;
+        line-height: 80px;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+}
+
 button {
     background-color: #7423C6;    
     outline: none;
