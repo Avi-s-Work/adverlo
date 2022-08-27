@@ -1,0 +1,15 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  background-color: #7423C6;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+}
+button:hover {
+  background-color: #5f2697;
+}/*# sourceMappingURL=style.css.map */
