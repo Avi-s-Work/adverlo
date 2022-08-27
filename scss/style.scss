@@ -2,6 +2,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h2 {
+    font-size: 2.375rem;
+    line-height: 3rem;
+}
+
 button {
     background-color: #7423C6;    
     outline: none;
@@ -42,11 +47,7 @@ button {
 }
 
 .ads-business {
-    padding: 120px 130px;
-    h1 {
-        font-size: 2.375rem;
-        line-height: 3rem;
-    }
+    padding: 120px 130px;    
 }
 
 .ads {
