@@ -14,6 +14,8 @@
     />
     <!-- favicon  -->
     <link rel="icon" href="images/Adverlo_Favicon.png" />
+    <!-- aos animation  -->
+    <link rel="stylesheet" href="plugins/aos/aos.css" />
     <!-- bootstrap css -->
     <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css" />
     <!-- main css -->
@@ -70,7 +72,7 @@
     </header>
     <!-- Hero Banner  -->
     <section
-      class="hero-bg"
+      class="hero all-bg"
       style="background-image: url('images/hero_bg.png')"
     >
       <div class="container py-5">
@@ -94,13 +96,15 @@
             class="pt-5 pt-lg-0 mt-5 mt-lg-0 col-12 col-lg-6 text-center text-lg-end"
           >
             <img
-              class="img-fluid leftFade-animation"
+              data-aos="fade-left"
+              data-aos-duration="3000"
+              class="img-fluid"
               src="/images/window.png"
               alt=""
             />
             <img
               src="images/Hero_Illustration.png"
-              class="people img-fluid"
+              class="hero-illustration img-fluid"
               alt="Hero_Illustration"
               loading="lazy"
             />
@@ -114,7 +118,11 @@
         <div
           class="row align-items-center justify-content-center justify-content-lg-between g-5 py-5"
         >
-          <div class="col-12 col-lg-7 text-center text-lg-start">
+          <div
+            data-aos="fade-right"
+            data-aos-duration="3000"
+            class="col-12 col-lg-7 text-center text-lg-start"
+          >
             <img
               src="/images/why_adverlo.png"
               class="img-fluid"
@@ -123,7 +131,13 @@
             />
           </div>
           <div class="col-12 col-lg-5 text-center text-lg-start">
-            <h1 class="fw-bold lh-1 mb-3">Why Adverlo?</h1>
+            <h1
+              data-aos="fade-left"
+              data-aos-duration="3000"
+              class="fw-bold lh-1 mb-3"
+            >
+              Why Adverlo?
+            </h1>
             <p class="mt-4">
               Adverlo is completely devoted to creating the best experience for
               our clients by delivering ad campaigns that work. Ads are
@@ -143,9 +157,19 @@
       </div>
     </section>
     <!-- Ads for business  -->
-    <section class="bg-dark">
+    <section
+      class="ads-business all-bg mt-5"
+      style="background-image: url('images/ad_bg.png')"
+    >
+      <h1
+        data-aos="fade-up"
+        class="text-white text-center"
+      >
+        Ads For Businesses <br />
+        And Brands All Over The World
+      </h1>
       <div class="container px-5">
-        <div class="ads row text-center">
+        <div class="ads row text-center px-5">
           <div class="col">
             <img
               class="img-fluid"
@@ -171,16 +195,20 @@
             <p>Your Business</p>
           </div>
         </div>
-        <div class="ads row text-center">
-          <div class="col">
+        <div class="ads row text-center px-5">
+          <div class="col col-sm-4">
             <img class="img-fluid" src="images/Tech.png" alt="Tech" />
             <p>Tech</p>
           </div>
-          <div class="col">
-            <img class="img-fluid" src="images/Healthcare.png" alt="Healthcare" />
+          <div class="col col-sm-4">
+            <img
+              class="img-fluid"
+              src="images/Healthcare.png"
+              alt="Healthcare"
+            />
             <p>Healthcare</p>
           </div>
-          <div class="col">
+          <div class="col col-sm-4">
             <img
               class="img-fluid"
               src="images/General_Services.png"
@@ -191,6 +219,11 @@
         </div>
       </div>
     </section>
+    <!-- Script  -->
     <script src="plugins/bootstrap/bootstrap.min.js"></script>
+    <script src="plugins/aos/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

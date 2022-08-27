@@ -2,14 +2,29 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.hero-bg {
+button {
+    background-color: #7423C6;    
+    outline: none;
+    border: none;
+    font-size: 18px;
+    line-height: 1.375rem;
+    color: #fff;
+    &:hover {
+        background-color: #5f2697;
+    }
+}
+
+.all-bg {
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 180px;
     height: auto;
 }
 
-.people {
+.hero {    
+    padding-top: 180px;
+}
+
+.hero-illustration {
     position: relative;
     top: -30px;
 }
@@ -26,21 +41,16 @@ body {
     }
 }
 
-button {
-    background-color: #7423C6;    
-    outline: none;
-    border: none;
-    font-size: 18px;
-    line-height: 1.375rem;
-    color: #fff;
-    &:hover {
-        background-color: #5f2697;
+.ads-business {
+    padding: 120px 130px;
+    h1 {
+        font-size: 2.375rem;
+        line-height: 3rem;
     }
 }
 
 .ads {
     margin-top: 111px;
-    padding: 0px 96px;
     div {
         display: flex;
         flex-direction: column;
