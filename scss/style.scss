@@ -1,4 +1,4 @@
-import body {
+body {
   font-family: "Roboto", sans-serif;
 }
 
@@ -31,6 +31,16 @@ button {
   }
 }
 
+.left-arrow {
+  position: absolute;
+  left: 0px;
+}
+
+.right-arrow {
+  position: absolute;
+  right: 0px;
+}
+
 .all-bg {
   background-size: cover;
   background-repeat: no-repeat;
@@ -38,7 +48,6 @@ button {
 
 .hero {
   padding-top: 180px;
-  height: auto;
   h1 {
     font-size: 4.125rem;
     line-height: 5rem;
@@ -56,27 +65,12 @@ button {
 
 .ads {
   position: relative;
-  height: 1050px;
-
   p {
     font-size: 1.75rem;
     line-height: 2.126rem;
     color: #fff;
     margin-top: 20px;
   }
-
-  .left-arrow {
-    position: absolute;
-    top: 300px;
-    left: 0px;
-  }
-
-  .right-arrow {
-    position: absolute;
-    top: 300px;
-    right: 0px;
-  }
-
   .categories div {
     display: flex;
     flex-direction: column;
