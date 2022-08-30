@@ -3,12 +3,6 @@ body {
   overflow-x: hidden;
 }
 
-h2 {
-  font-size: clamp (0.75rem, 2.375vw, 2.375rem);
-  line-height: 3rem;
-  font-weight: bolder;
-}
-
 p {
   font-size: 1.25rem;
 }
@@ -24,6 +18,7 @@ p {
 button {
   @include buttonProperty;
   background-color: #7423c6;
+
   &:hover {
     background-color: #5f2697;
   }
@@ -32,6 +27,7 @@ button {
 .nav-button {
   @include buttonProperty();
   background-color: #f13a9e;
+
   &:hover {
     background-color: #d40b7a;
   }
@@ -54,9 +50,7 @@ button {
 
 .hero {
   padding-top: 180px;
-  h1 {
-    font-size: clamp(2.125rem, 4.125vw, 4.125rem);
-  }  
+
   .illustrator {
     height: 670px;
     position: relative;
@@ -65,17 +59,28 @@ button {
 
 .ads {
   position: relative;
-  p {
-    font-size: 1.75rem;
-    color: #fff;
-    margin-top: 20px;
-  }
+
   .categories div {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 200px;
-    margin-bottom: 100px;
+    margin-bottom: 58px;
+
+    span {
+      font-size: clamp(0.60rem, 1.25vw, 1.25rem);
+    }
+  }
+}
+
+.profiles {
+  padding-bottom: 200px;
+
+  h4 {
+    font-size: clamp(0.625rem, 1.75vw, 1.75rem);
+  }
+
+  p {
+    font-size: clamp(0.438rem, 1.25vw, 1.25rem);
   }
 }
