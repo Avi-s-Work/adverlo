@@ -85,4 +85,10 @@ button:hover {
 }
 .profiles p {
   font-size: clamp(0.438rem, 1.25vw, 1.25rem);
+}
+
+@media only screen and (max-width: 768px) {
+  .hero {
+    padding-top: 120px;
+  }
 }/*# sourceMappingURL=style.css.map */
